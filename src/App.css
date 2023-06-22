@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leaflet-container {
+  width:100w;
+  height: 100vh;
+}
+
+.my-div-icon{
+  background-color: aquamarine;
+}
+
+.nav-panel{
+  width: 300px;
+  height: 100vh;
+  background-color: white;
+  position: absolute;
+  z-index: 1000;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+h1 {
+  cursor: pointer;
+}
